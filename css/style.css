@@ -21,18 +21,17 @@ ul, li {
 	margin: 0;
 	padding: 0;
 }
+.container {
+	width: 100%;
+	max-width: 1290px;
+	margin: 0 auto;
+	padding: 0 24px;
+}
 
 /**
 
 
 
-.ContentBlock .content-flex img {
-	width: 100%;
-}
-.ContentBlock-right {
-	text-align: center;
-	line-height: 1;
-}
 .ContentBlock-right h3 {
 	font-size: 48px;
 	font-weight: 100;
