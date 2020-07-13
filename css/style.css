@@ -21,6 +21,11 @@ ul, li {
 	margin: 0;
 	padding: 0;
 }
+h3 {
+	font-size: 32px;
+	font-weight: 300;
+	margin-bottom: 16px;
+}
 .container {
 	width: 100%;
 	max-width: 1290px;
@@ -38,28 +43,33 @@ ul, li {
 .CarouselImage ul li {
 	width: 20%;
 	padding-left: 20px;
+	margin-bottom: 20px;
 }
 .CarouselImage ul li img {
 	width: 100%;
 }
-
-
-
-
-
-
-/**
-
+.cover {
+	position: relative;
+}
+.book-title {
+	width: 90%;
+	text-align: center;
+	font-size: 14px;
+	color: #fff;
+	font-weight: 300;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
 @media (max-width: 1000px) {
-	.header-left {
-		background: #000;
-		display: none;
+	.CarouselImage ul li {
+		width: 33.33%;
 	}
-	.header-logo {
-		width: 20%;
-	}
-	.header-right {
-		width: 80%;
+}
+@media (max-width: 670px) {
+	.CarouselImage ul li {
+		width: 50%;
 	}
 }
 
