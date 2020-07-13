@@ -37,6 +37,9 @@ ul, li {
 .CarouselImage ul li {
 	width: 20%;
 }
+.CarouselImage ul li img {
+	width: 100%;
+}
 
 
 
