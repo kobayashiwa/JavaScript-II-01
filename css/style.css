@@ -6,7 +6,7 @@
 }
 body {
 	margin: 0;
-	font-family: 'Work Sans', sans-serif;
+	font-family: 'Fira Sans', sans-serif;
 	color: #2C3543;
 }
 a {
@@ -21,62 +21,55 @@ ul, li {
 	margin: 0;
 	padding: 0;
 }
-
-/**
+h3 {
+	font-size: 32px;
+	font-weight: 300;
+	margin-bottom: 16px;
+}
 .container {
 	width: 100%;
-	max-width: 1440px;
+	max-width: 1290px;
 	margin: 0 auto;
 	padding: 0 24px;
 }
-.ContentBlockHero {
-	margin: 0 60px;
+.Carousel {
+	margin: 80px 0;
 }
-.ContentBlock {
+.CarouselImage ul {
 	display: flex;
 	flex-wrap: wrap;
-	align-items: center;
+	margin-left: -20px;
 }
-.ContentBlock .content-flex {
-	width: 50%;
+.CarouselImage ul li {
+	width: 20%;
+	padding-left: 20px;
+	margin-bottom: 20px;
 }
-.ContentBlock .content-flex img {
+.CarouselImage ul li img {
 	width: 100%;
 }
-.ContentBlock-right {
+.cover {
+	position: relative;
+}
+.book-title {
+	width: 90%;
 	text-align: center;
-	line-height: 1;
-}
-.ContentBlock-right h3 {
-	font-size: 48px;
-	font-weight: 100;
-	color: #DC221A;
-}
-.ContentBlock-right p {
-	color: #8D9197;
-	font-size: 24px;
-	padding: 8px 0 16px 0;
-	font-weight: 200;
-}
-.ContentBlock-right .btn {
 	font-size: 14px;
-	background: #297CBB;
-	display: inline-block;
-	padding: 12px 24px;
-	border-radius: 24px;
 	color: #fff;
 	font-weight: 300;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
 }
 @media (max-width: 1000px) {
-	.header-left {
-		background: #000;
-		display: none;
+	.CarouselImage ul li {
+		width: 33.33%;
 	}
-	.header-logo {
-		width: 20%;
-	}
-	.header-right {
-		width: 80%;
+}
+@media (max-width: 670px) {
+	.CarouselImage ul li {
+		width: 50%;
 	}
 }
 
