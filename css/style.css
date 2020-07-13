@@ -30,17 +30,16 @@ ul, li {
 .Carousel {
 	margin: 80px 0;
 }
+.CarouselImage ul {
+	display: flex;
+	flex-wrap: wrap;
+}
 
 /**
 
 
 
-.ContentBlock-right p {
-	color: #8D9197;
-	font-size: 24px;
-	padding: 8px 0 16px 0;
-	font-weight: 200;
-}
+
 .ContentBlock-right .btn {
 	font-size: 14px;
 	background: #297CBB;
