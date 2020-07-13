@@ -6,7 +6,7 @@
 }
 body {
 	margin: 0;
-	font-family: 'Work Sans', sans-serif;
+	font-family: 'Fira Sans', sans-serif;
 	color: #2C3543;
 }
 a {
@@ -23,15 +23,8 @@ ul, li {
 }
 
 /**
-.container {
-	width: 100%;
-	max-width: 1440px;
-	margin: 0 auto;
-	padding: 0 24px;
-}
-.ContentBlockHero {
-	margin: 0 60px;
-}
+
+
 .ContentBlock {
 	display: flex;
 	flex-wrap: wrap;
